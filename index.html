@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Circadian Shelf // Project 1</title>
+  <link rel="stylesheet" href="styles.css" />
+   <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+   </style>
+</head>
+
+<body>
+  <header id="top">
+    <h1>Circadian Shelf</h1>
+
+    <p class="intro">
+      I like collecting small fragments of daily moments because they don’t ask to be important.
+      They’re usually the parts of a day that pass unnoticed—light, pauses, surfaces, reflections.
+      Holding onto these fragments feels calmer than trying to capture whole experiences.
+    </p>
+
+    <p class="rule">
+      I don’t collect events. I collect the parts that almost disappear—then decide how long to hold them.
+    </p>
+
+    <section class="legend" aria-label="How to read this site">
+      <div class="legend-content">
+        <h2>How I keep things</h2>
+
+        <ul class="legend-keys">
+          <li class="key-item">
+            <span class="tag tag-glance">glance</span>
+            <span class="desc">brief, no words</span>
+          </li>
+          <li class="key-item">
+            <span class="tag tag-held">held</span>
+            <span class="desc">annotated (light/body)</span>
+          </li>
+          <li class="key-item">
+            <span class="tag tag-kept">kept</span>
+            <span class="desc">a reason why</span>
+          </li>
+          <li class="key-item">
+            <span class="tag tag-revisit">revisited</span>
+            <span class="desc">updated later</span>
+          </li>
+        </ul>
+
+        <p class="legend-note">Text fragments are what I couldn’t photograph.</p>
+      </div>
+    </section>
+
+    <ul class="specs-list">
+      <li>Cycle: 2023 &ndash; 2025</li>
+      <li>Condition: Mutable</li>
+      <li>Format: Digital / 35mm Scan</li>
+    </ul>
+
+    <nav aria-label="Time of day">
+      <a href="#dawn">Dawn</a> /
+      <a href="#morning">Morning</a> /
+      <a href="#day">Day</a> /
+      <a href="#night">Night</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== DAWN ===================== -->
+    <section id="dawn" class="material-group">
+      <details>
+        <summary>01. Dawn // The Blue Hour</summary>
+
+        <div class="grid-container">
+          <figure class="fragment" data-hold="held">
+            <img src="images/a01.jpg" alt="Diffused dawn light on a quiet street" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Seoul // Early</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Diffused, grey</dd>
+                <dt>Body</dt><dd>Warm, waiting</dd>
+              </dl>
+            </figcaption>
+          </figure>
+
+          <div class="text-fragment">The air felt heavier than the architecture.</div>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/a02.jpg" alt="Fogged glass catching early blue light" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Seoul // Mist</span>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="kept">
+            <img src="images/a03.jpg" alt="Blue dawn light on a facade edge, still and quiet" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-kept">kept</span>
+              <span class="loc">Seoul // Facade</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Blue</dd>
+                <dt>Body</dt><dd>Still</dd>
+              </dl>
+
+              <p class="memory-note">
+                I kept this because the silence felt exactly like the library I used to study in.
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/a04.jpg" alt="Street corner in early light, glanced while walking" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Seoul // Street</span>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="held">
+            <img src="images/a05.jpg" alt="Morning light rising across a corner, mid-step" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Seoul // Corner</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Rising</dd>
+                <dt>Body</dt><dd>Walking</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </div>
+      </details>
+    </section>
+
+    <!-- ===================== MORNING ===================== -->
+    <section id="morning" class="material-group">
+      <details>
+        <summary>02. Morning // Sharp Shadows</summary>
+
+        <div class="grid-container">
+          <figure class="fragment" data-hold="revisited">
+            <img src="images/b01.jpg" alt="Hard shadow geometry on brick in morning sun" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-revisit">revisited</span>
+              <span class="loc">Boston // Angle</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Hard</dd>
+                <dt>Body</dt><dd>Passing</dd>
+              </dl>
+
+              <div class="revisit-log" aria-label="Revisit notes">
+                <p class="old-note"><span class="date">2023</span> Just a shadow study.</p>
+                <p class="new-note"><span class="date">2025</span> Looking back, this geometry defines my current work.</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="held">
+            <img src="images/b02.jpg" alt="Warm interior light falling on wood grain" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Seoul // Grain</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Interior, warm</dd>
+                <dt>Body</dt><dd>Sitting</dd>
+              </dl>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/b03.jpg" alt="Small wood detail noticed in passing" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Seoul // Detail</span>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="held">
+            <img src="images/b04.jpg" alt="Warm light on wood, resting moment" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Seoul // Warm</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Warm</dd>
+                <dt>Body</dt><dd>Resting</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </div>
+      </details>
+    </section>
+
+    <!-- ===================== DAY ===================== -->
+    <section id="day" class="material-group">
+      <details>
+        <summary>03. Day // High Contrast</summary>
+
+        <div class="grid-container">
+          <figure class="fragment" data-hold="kept">
+            <img src="images/c01.jpg" alt="Overexposed daylight glare, heat held in memory" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-kept">kept</span>
+              <span class="loc">Paris // Glare</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Overexposed</dd>
+                <dt>Body</dt><dd>Squinting</dd>
+              </dl>
+
+              <p class="memory-note">
+                Too bright to look at directly, but I needed to remember the heat.
+              </p>
+            </figcaption>
+          </figure>
+
+          <div class="text-fragment">( Overexposed )</div>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/c02.jpg" alt="Quick glimpse of metal reflection while walking" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Tokyo</span>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/c03.jpg" alt="Another quick metal surface glimpse, no notes" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Tokyo</span>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="held">
+            <img src="images/c04.JPG" alt="Metallic reflection, distracted gaze in crowd" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Tokyo // Reflection</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Metallic</dd>
+                <dt>Body</dt><dd>Moving</dd>
+              </dl>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment diptych" data-hold="held">
+            <div class="diptych-media" aria-label="Two-image sequence">
+              <img src="images/c05.jpg" alt="Metal surface sequence, frame one" loading="lazy" />
+              <img src="images/c06.jpg" alt="Metal surface sequence, frame two" loading="lazy" />
+            </div>
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Tokyo // Sequence</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Moving</dd>
+                <dt>Body</dt><dd>Walking</dd>
+              </dl>
+            </figcaption>
+          </figure>
+        </div>
+      </details>
+    </section>
+
+    <!-- ===================== NIGHT ===================== -->
+    <section id="night" class="material-group">
+      <details>
+        <summary>04. Night // The Void</summary>
+
+        <div class="grid-container">
+          <figure class="fragment" data-hold="held">
+            <img src="images/d01.jpg" alt="Neon-lit window at night, tired body" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-held">held</span>
+              <span class="loc">Berlin // Artificial</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Neon</dd>
+                <dt>Body</dt><dd>Tired</dd>
+              </dl>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/d02.jpg" alt="Dark water at night, quick glance" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Switzerland</span>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="kept">
+            <img src="images/d03.jpg" alt="Black water and silence, kept for the feeling" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-kept">kept</span>
+              <span class="loc">Switzerland // Deep</span>
+
+              <dl class="sensory-data">
+                <dt>Light</dt><dd>Black</dd>
+                <dt>Audio</dt><dd>Silence</dd>
+              </dl>
+
+              <p class="memory-note">It felt like the water was watching me back.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="fragment" data-hold="glance">
+            <img src="images/d04.jpg" alt="Another dark water frame, left unannotated" loading="lazy" />
+            <figcaption>
+              <span class="tag tag-glance">glance</span>
+              <span class="loc">Switzerland</span>
+            </figcaption>
+          </figure>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#top">( Return to Top )</a>
+  </footer>
+</body>
+</html>
